@@ -12,7 +12,7 @@ int chdecimal(int num){
 }
 void main(){
     int n;
-    printf("Enter binary input:-\n");
+    printf("Enter input:-\n");
     scanf("%d",&n);
     int res=chdecimal(n);
     printf("Decimal number is:-\n%d",res);
