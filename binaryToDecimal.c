@@ -10,10 +10,11 @@ int chdecimal(int num){
     }
     return deci;
 }
-void main(){
+int main(){
     int n;
     printf("Enter input:-\n");
     scanf("%d",&n);
     int res=chdecimal(n);
     printf("Decimal number is:-\n%d",res);
+return 0;
 }
